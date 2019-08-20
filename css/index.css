@@ -85,12 +85,70 @@ nav a{
     color: black;
 }
 
+header nav a:hover{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px 0px 20px 0px;
     border-bottom: 1px dashed black;
+}
+
+.topproductblock h1{
+    margin-top: 20px;
+}
+
+.topproductblock{
+	text-align: center;
+	margin: 30px 0px 30px 0px;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted rgb(21, 45, 53);
+}
+
+.productminiblocks{
+	display: flex;
+	background-color: rgb(118, 110, 119);
+	flex-wrap: wrap;
+	margin: 25px 0px 0px 0px;
+	justify-content: space-around;
+	border: 2px solid black;
+	border-bottom: none;
+}
+
+
+.productmini{
+	width: 45%;
+	background-color: rgb(170, 169, 169);
+	text-align: center;
+	border: 2px solid rgb(31, 31, 56);
+	margin: 25px 0px 20px 0px;
+}
+
+.bottomproducthead{
+	display: flex;
+	color: white;
+	justify-content: center;
+	background-color: rgb(66, 58, 68);
+	border: 2px solid black;
+	padding-top: 15px;
+
+}
+
+.bottomproductheadtext{
+	text-align: center;
+	background-color: rgb(156, 118, 163);
+	color: white;
+	border: 2px solid black;
+	border-top: none;
+	height: 300px;
+	font-size: 20px;
+	padding: 65px 200px 10px 200px;
+	
 }
 
 .box1{
@@ -161,7 +219,7 @@ nav a{
     margin-top: 10px;
 }
 
-.main-about-boxes button{
+button{
     background-color: white;
 	text-align: center;
     margin: 15px 0px 15px 0px;
@@ -170,9 +228,11 @@ nav a{
 	width: 35%;
     font-size: 14px;
     border: 1px solid black;
+    cursor: pointer;
 }
 
-.about-bottom{
+
+.bottom{
     display: flex;
     flex-direction: column;
     margin: 0px 20px 0px 20px;
@@ -235,4 +295,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover{
+    text-decoration: underline;
+    color: rgb(148, 148, 197);
 }
